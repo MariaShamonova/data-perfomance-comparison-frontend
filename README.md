@@ -1,4 +1,4 @@
-# frontend
+# Frontend
 
 ## Project setup
 ```
@@ -10,15 +10,6 @@ npm install
 npm run serve
 ```
 
-### Compiles and minifies for production
-```
-npm run build
-```
+### What is it?
 
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+An application that implements simple methods to simulate reading and writing arbitrary data in a database. The main task is to implement such methods of connecting to the database as a local connection, connection using containerization technologies and integration with a cloud database.
