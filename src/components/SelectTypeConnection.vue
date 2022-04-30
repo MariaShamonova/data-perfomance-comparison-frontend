@@ -24,13 +24,13 @@ export default {
       },
       selectedItem: "local",
       items: [
-        { id: 0, name: "Локальное подключение к БД", value: "local" },
+        { id: 0, name: "Local database connection", value: "local" },
         {
           id: 1,
-          name: "Подключение с помощью Docker",
+          name: "Connecting to a database using Docker",
           value: "container_local",
         },
-        { id: 2, name: "Интеграция с облачной БД", value: "cloud" },
+        { id: 2, name: "Cloud database integration", value: "cloud" },
       ],
     };
   },

@@ -8,12 +8,12 @@
         <v-row>
           <v-col cols="12">
             <v-btn class="elevation-0" color="primary" small @click="generate">
-              Сгенерировать данные
+              Generate Data
             </v-btn>
           </v-col>
           <v-col v-if="chartsWrite.length" cols="12">
             <span>
-              Зависимость времени ответа от количества запрашиваемых данных
+              Dependence of response time on the amount of requested data
             </span>
           </v-col>
           <v-col v-for="(chart, index) in chartsWrite" :key="index" cols="4">
@@ -24,7 +24,7 @@
         <v-row v-if="chartsWrite.length">
           <v-col cols="12">
             <v-btn class="elevation-0" color="success" small @click="getData">
-              Получить данные
+              Get data
             </v-btn>
           </v-col>
           <v-col cols="4" v-if="Object.values(chartRead).length">
